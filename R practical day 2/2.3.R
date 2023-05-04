@@ -1,0 +1,8 @@
+col1 <- c(1, 4, 7)
+col2 <- c(2, 5, 8)
+col3 <- c(3, 6, 9)
+col4 <- c(10, 11, 12)
+table1 <- cbind(col1, col2, col3)
+table2 <- cbind(col4, col3, col1)
+arr <- array(c(table1, table2), dim = c(3, 4, 2))
+print(arr)
